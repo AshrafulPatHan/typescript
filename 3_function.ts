@@ -1,7 +1,8 @@
 // node 3_function.ts
 
-function chakNum(num:number) {
+function chakNum(num:number):number {
     return num +2
+    // return "hello"
 }
 
 chakNum(5)

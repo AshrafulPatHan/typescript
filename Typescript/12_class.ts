@@ -1,11 +1,15 @@
 
 class code {
     name: string
-    aeg : number
+    // email:string
+    // aeg : number
+    time!: number
 
     constructor(
         name:string,
-        aeg:number
+        public readonly email:string,
+        private aeg:number,
+        protected lang:string
     ){
         this.name = name
         this.aeg = aeg

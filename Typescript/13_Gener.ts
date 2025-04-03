@@ -60,3 +60,5 @@ function anotherSecFunction<T,U extends number>(val:T,val2:U):object {
 }
 
 anotherSecFunction("2",3)
+
+

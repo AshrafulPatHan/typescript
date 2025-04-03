@@ -41,5 +41,7 @@ function returnArray<T>(val:T[]):T {
 }
 
 
-
+let returnArrow = <T>(value:T):T =>{
+   return value
+}
 

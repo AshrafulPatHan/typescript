@@ -45,3 +45,18 @@ let returnArrow = <T,>(value:T):T =>{
    return value
 }
 
+function anotherFunction<T,U>(val:T,val2:U):object {
+   return {
+      val,
+      val2
+   }
+}
+
+function anotherSecFunction<T,U extends number>(val:T,val2:U):object {
+   return {
+      val,
+      val2
+   }
+}
+
+anotherSecFunction("2",3)

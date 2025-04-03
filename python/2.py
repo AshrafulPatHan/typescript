@@ -1,6 +1,5 @@
 # python3 2.py
 
-
 def chakAge(age):
    if age >= 18 :
       print("pay mony for food")
@@ -13,8 +12,20 @@ def chakAge(age):
 chakAge(23)
 
 
+poet = '''
+   My name is ashraful
+   and surname is pathan 
+   mean ashraful pathan
+'''
+
+def addPoet(poet):
+   print(poet)
+addPoet(poet)
 
 
+poet = 2
+
+print(poet)
 
 
 

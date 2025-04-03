@@ -15,7 +15,9 @@ interface admin extends user {
     role : "Admin" | string
 }
 
-let User: user = {name:"ashraful",email:"ashraful@gamal.com",gitHub:"ashraful github",
+let User: user = {name:"ashraful",
+    email:"ashraful@gamal.com",
+    gitHub:"ashraful github",
     function: () =>{ return "hi" } ,
     function1: () =>{ return "hi" },
     getCoupon:(name:"ashraful", aeg:17) => {
@@ -23,7 +25,10 @@ let User: user = {name:"ashraful",email:"ashraful@gamal.com",gitHub:"ashraful gi
     },
 }
 
-let UserAdmin: admin = {name:"ashraful",email:"ashraful@gamal.com",gitHub:"ashraful github",role:"Admin",
+let UserAdmin: admin = {name:"ashraful",
+    email:"ashraful@gamal.com",
+    gitHub:"ashraful github",
+    role:"Admin",
     function: () =>{ return "hi" } ,
     function1: () =>{ return "hi" },
     getCoupon:(name:"ashraful", aeg:17) => {

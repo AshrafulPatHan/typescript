@@ -32,6 +32,36 @@ let UserAdmin: admin = {name:"ashraful",email:"ashraful@gamal.com",gitHub:"ashra
 }
 
 
+// part 2
 
 
+interface TakePhoto {
+    cameraMode: string
+    filter:string
+    build:number
+}
+
+interface Story {
+    createStory():void
+}
+
+class Instagram implements TakePhoto {
+    constructor(
+        public cameraMode:string,
+        public filter: string,
+        public build:number
+    ){}
+}
+class Youtube implements TakePhoto {
+    constructor(
+        public cameraMode:string,
+        public filter: string,
+        public build:number,
+        public short:string
+    ){}
+    createStory():void {
+        console.log("story is create");
+        
+    }
+}
 

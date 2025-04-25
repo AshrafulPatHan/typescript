@@ -44,8 +44,35 @@ bullBull = "kaku"
 
 // declaring function
 
+// 1
+
+function functions(type:string) {
+   return 2
+};
+functions("hello-2")
+
+// 2
+
+function functions_2(type:string,num:number,boll:boolean) {
+   return 2
+};
+functions_2("hello-2",3,false)
+
+// 3
+
+function functions_3(type:string,num:number,boll:boolean):string {
+   return "howrah"
+};
+functions_3("hello-2",3,false)
+
+let arrow = (fun:string):number => {
+   return 2
+}
+arrow("hi")
 
 
 
 
 
+
+export{}

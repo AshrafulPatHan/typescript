@@ -1,4 +1,6 @@
+"use strict";
 // tsc praktis.js
+Object.defineProperty(exports, "__esModule", { value: true });
 // declaring variable and type and console.log for print the code
 var start = "bismella";
 console.log(start);
@@ -21,4 +23,3 @@ countMama = gitNum();
 // Bull = "kaku"
 var bullBull;
 bullBull = "kaku";
-// declaring function

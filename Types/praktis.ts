@@ -160,7 +160,7 @@ const mixedArray: (number | { hi: string; rating: number })[] = [
    rating: 10
    }
 ];
- 
+
  
 const mixedArray2:any = [
    5,
@@ -170,7 +170,8 @@ const mixedArray2:any = [
    }
 ];
   
-
+// 8_unioune,ts 
+// =>
 
 
 
